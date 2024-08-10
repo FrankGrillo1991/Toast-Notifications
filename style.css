@@ -1,0 +1,22 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 97vh;
+    background: #d4d2a5;
+    background-image: linear-gradient(
+        to right,
+        #f1bebe 0%,
+        #f3d87f
+    );
+    padding: 3em 0;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
