@@ -161,3 +161,33 @@ h1 {
 .toast.toast-warning .toast-progress {
     background-color: #f1c40f;
 }
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+    }
+    75% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes toastProgress {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
