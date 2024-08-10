@@ -58,3 +58,15 @@ button.custom-toast {
     background: #3498db;
     color: #fff;
 }
+
+button.custom-toast:hover {
+    filter: brightness(0.9);
+}
+
+button.success-toast {
+    background-color: #2ecc71;
+}
+
+button.danger-toast {
+    background-color: #e74c3c;
+}
