@@ -29,3 +29,12 @@ h3 {
     gap: 15px;
     margin: 2em auto;
 }
+
+.toast-row {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
