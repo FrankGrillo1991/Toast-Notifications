@@ -70,3 +70,11 @@ button.success-toast {
 button.danger-toast {
     background-color: #e74c3c;
 }
+
+button.info-toast {
+    background-color: #3498db;
+}
+
+button.warning-toast {
+    background-color: #f1c40f;
+}
