@@ -129,3 +129,35 @@ h1 {
     color: #000000;
     padding: 0.5rem;
 }
+
+.toast.toast-success {
+    background: #95eab8;
+}
+
+.toast.toast-success .toast-progress {
+    background-color: #2ecc71;
+}
+
+.toast.toast-danger {
+    background: #efaca5;
+}
+
+.toast.toast-danger .toast-progress {
+    background-color: #e74c3c;
+}
+
+.toast.toast-info {
+    background: #bddaed;
+}
+
+.toast.toast-info .toast.progress {
+    background-color: #3498db;
+}
+
+.toast.toast-warning {
+    background: #ead994;
+}
+
+.toast.toast-warning .toast-progress {
+    background-color: #f1c40f;
+}
