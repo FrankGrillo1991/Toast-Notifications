@@ -78,3 +78,22 @@ button.info-toast {
 button.warning-toast {
     background-color: #f1c40f;
 }
+
+h1 {
+    color: green;
+}
+
+.toast {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    max-width: 300px;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1023;
+    animation: slideInRight 0.3s ease-in-out forwards,
+    fadeOut 0.5s ease-in-out forwards 3s;
+    transform: translateX(110%);
+}
