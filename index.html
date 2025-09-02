@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A simple implementation of toast notifications using HTML, CSS, and JavaScript.">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
         <title>Custom Toast Notification</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -13,14 +15,14 @@
         <h3>Toast Notification in HTML CSS JavaScript</h3>
         <div class="toast-buttons">
             <div class="toast-row">
-                <button type="button" class="custom-toast success-toast">Submit</button>
-                <button type="button" class="custom-toast danger-toast">Failed</button>
-                <button type="button" class="custom-toast info-toast">Information</button>
-                <button type="button" class="custom-toast warning-toast">Warning</button>
+                <button type="button" class="custom-toast success-toast" aria-label="Show success toast notification">Submit</button>
+                <button type="button" class="custom-toast danger-toast" aria-label="Show error toast notification">Failed</button>
+                <button type="button" class="custom-toast info-toast" aria-label="Show info toast notification">Information</button>
+                <button type="button" class="custom-toast warning-toast" aria-label="Show warning toast notification">Warning</button>
             </div>
         </div>
        </div>
-    <div class="toast-overlay" id="toast-overlay"></div>
+    <div class="toast-overlay" id="toast-overlay" aria-live="polite" aria-atomic="true"></div>
     <script src="script.js"></script>
     </body>
 </html>
